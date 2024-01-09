@@ -1,0 +1,34 @@
+<!--
+    Ekrana 100 tane 10*10luk kareden oluşan bir kutu çizdirin.
+    Kutuların renkleri rastgele olsun
+    Kutuların içinde numaraları arka plan renginin negatifi ile yazsın
+    Kutuların üzerine gelince kutu 13*13 boyuta büyüsün
+    Kutunun üzerinden gidilince kutu eski haline geri gelsin.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="dgm_goster">Yok Et</button>
+    <div id="karakutu">Beyaz</div>
+    <style>
+        #karakutu {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background-color: black;
+            color: white;
+            left: 150px;
+            top: 150px;
+        }
+    </style>
+    <script src="jquery-3.6.1.min.js"></script>
+</body>
+</html>
